@@ -32,11 +32,7 @@ repo sync \
     external/golang-protobuf \
     external/starlark-go \
     frameworks/native \
-    frameworks/support \
     system/tools/aidl \
-    external/kotlinc \
-    external/kotlinx.coroutines \
-    external/robolectric-shadows \
     external/protobuf \
     libcore \
     prebuilts/build-tools \
