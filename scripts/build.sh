@@ -9,8 +9,8 @@ cd "$ANDROID_DIR"
 
 if [ ! -d .repo ]; then
     repo init \
-        -u https://android.googlesource.com/platform/manifest \
-        -b android-16.0.0_r1 \
+        -u ${ROM_MANIFEST_URL} \
+        -b ${ROM_BRANCH} \
         --depth=1
 fi
 
@@ -28,7 +28,6 @@ repo sync \
     system/libbase \
     system/logging \
     prebuilts/jdk/jdk21 \
-    prebuilts/go \
     -j8
 
 set +u
