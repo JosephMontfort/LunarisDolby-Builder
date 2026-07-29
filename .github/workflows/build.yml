@@ -37,9 +37,8 @@ jobs:
 
       - name: Build APK
         env:
-          ROM_MANIFEST_URL: "https://github.com/crdroidandroid/android.git"
-          ROM_BRANCH: "16.0"
-          LUNCH_TARGET: "crdroid_garnet-userdebug"
+          ROM_MANIFEST_URL: "https://android.googlesource.com/platform/manifest"
+          ROM_BRANCH: "android-16.0.0_r1"
           MODULE_NAME: "LunarisDolby"
           JOBS: "8"
         run: |
