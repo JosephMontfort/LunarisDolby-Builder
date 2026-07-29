@@ -45,4 +45,4 @@ source build/envsetup.sh
 set -u
 
 
-m LunarisDolby
+list_products
