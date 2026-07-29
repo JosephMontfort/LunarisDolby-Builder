@@ -3,7 +3,8 @@ set -Eeuo pipefail
 
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 ANDROID_DIR="${ANDROID_DIR:-$ROOT_DIR/android}"
-ROM_MANIFEST_URL="${ROM_MANIFEST_URL:-https://github.com/crdroidandroid/android}"
+
+ROM_MANIFEST_URL="${ROM_MANIFEST_URL:-https://github.com/crdroidandroid/android.git}"
 ROM_BRANCH="${ROM_BRANCH:-16.0}"
 LUNCH_TARGET="${LUNCH_TARGET:-crdroid_garnet-userdebug}"
 MODULE_NAME="${MODULE_NAME:-LunarisDolby}"
@@ -13,7 +14,7 @@ mkdir -p "$ANDROID_DIR"
 cd "$ANDROID_DIR"
 
 if [ ! -d .repo ]; then
-    repo init -u "$ROM_MANIFEST_URL" -b "$ROM_BRANCH" --depth=1
+    repo init -u "$ROM_MANIFEST_URL" -b "$ROM_BRANCH" --git-lfs --no-clone-bundle
 fi
 
 mkdir -p .repo/local_manifests
