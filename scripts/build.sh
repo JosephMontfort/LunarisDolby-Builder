@@ -34,6 +34,5 @@ set +u
 source build/envsetup.sh
 set -u
 
-lunch --list
 
 m LunarisDolby
