@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <remote
-        name="joseph"
-        fetch="https://github.com" />
+    <remote name="joseph" fetch="https://github.com"/>
 
     <project
         name="JosephMontfort/LunarisDolby"
         path="packages/apps/LunarisDolby"
         remote="joseph"
-        revision="main" />
+        revision="main"/>
 
 </manifest>
