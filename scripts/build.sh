@@ -30,7 +30,9 @@ repo sync \
     prebuilts/jdk/jdk21 \
     -j8
 
+set +u
 source build/envsetup.sh
+set -u
 
 lunch aosp_arm64-userdebug
 
