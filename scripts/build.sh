@@ -28,6 +28,7 @@ repo sync \
     system/libbase \
     system/logging \
     prebuilts/jdk/jdk21 \
+    prebuilts/go/linux-x86 \
     -j8
 
 set +u
