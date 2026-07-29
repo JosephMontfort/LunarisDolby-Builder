@@ -9,8 +9,8 @@ cd "$ANDROID_DIR"
 
 if [ ! -d .repo ]; then
     repo init \
-        -u https://github.com/crdroidandroid/android.git \
-        -b 16.0 \
+        -u https://android.googlesource.com/platform/manifest \
+        -b android-16.0.0_r1 \
         --depth=1
 fi
 
