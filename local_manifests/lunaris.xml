@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="github" fetch="https://github.com" />
+    <remote name="joseph" fetch="https://github.com" />
 
     <!-- Core tree -->
-    <project name="project-sm7435/android_frameworks_base" path="frameworks/base" remote="github" revision="16.0" />
-    <project name="project-sm7435/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="16.0" />
+    <project name="project-sm7435/android_frameworks_base" path="frameworks/base" remote="joseph" revision="16.0" />
+    <project name="project-sm7435/android_hardware_xiaomi" path="hardware/xiaomi" remote="joseph" revision="16.0" />
 
     <!-- Device / vendor -->
-    <project name="project-sm7435/device_xiaomi_garnet" path="device/xiaomi/garnet" remote="github" revision="16.0" />
-    <project name="project-sm7435/vendor_xiaomi_garnet" path="vendor/xiaomi/garnet" remote="github" revision="16.0" />
-    <project name="project-sm7435/device_xiaomi_garnet-miuicamera" path="device/xiaomi/garnet-miuicamera" remote="github" revision="16.0" />
-    <project name="project-sm7435/vendor_xiaomi_garnet-miuicamera" path="vendor/xiaomi/garnet-miuicamera" remote="github" revision="16.0" />
+    <project name="project-sm7435/device_xiaomi_garnet" path="device/xiaomi/garnet" remote="joseph" revision="16.0" />
+    <project name="project-sm7435/vendor_xiaomi_garnet" path="vendor/xiaomi/garnet" remote="joseph" revision="16.0" />
+    <project name="project-sm7435/device_xiaomi_garnet-miuicamera" path="device/xiaomi/garnet-miuicamera" remote="joseph" revision="16.0" />
+    <project name="project-sm7435/vendor_xiaomi_garnet-miuicamera" path="vendor/xiaomi/garnet-miuicamera" remote="joseph" revision="16.0" />
 
     <!-- Dolby / audio -->
-    <project name="project-sm7435/hardware_dolby" path="hardware/dolby" remote="github" revision="16.0" />
-    <project name="project-sm7435/packages_apps_VIPER4AndroidFX" path="packages/apps/VIPER4AndroidFX" remote="github" revision="16.0" />
+    <project name="project-sm7435/hardware_dolby" path="hardware/dolby" remote="joseph" revision="16.0" />
+    <project name="project-sm7435/packages_apps_VIPER4AndroidFX" path="packages/apps/VIPER4AndroidFX" remote="joseph" revision="16.0" />
 
     <!-- Your app -->
-    <project name="JosephMontfort/LunarisDolby" path="packages/apps/LunarisDolby" remote="github" revision="main" />
+    <project name="JosephMontfort/LunarisDolby" path="packages/apps/LunarisDolby" remote="joseph" revision="main" />
 
     <!-- Add-ons -->
-    <project name="project-sm7435/android_vendor_addons" path="vendor/addons" remote="github" revision="16.0" />
+    <project name="project-sm7435/android_vendor_addons" path="vendor/addons" remote="joseph" revision="16.0" />
 
     <!-- Kernel repos (not needed for APK build, but included because you asked for all repos) -->
-    <project name="project-sm7435/android_kernel_xiaomi_sm7435" path="kernel/xiaomi/sm7435" remote="github" revision="16.0" />
-    <project name="project-sm7435/android_kernel_xiaomi_sm7435-devicetrees" path="kernel/xiaomi/sm7435-devicetrees" remote="github" revision="16.0" />
-    <project name="project-sm7435/android_kernel_xiaomi_sm7435-modules" path="kernel/xiaomi/sm7435-modules" remote="github" revision="16.0" />
+    <project name="project-sm7435/android_kernel_xiaomi_sm7435" path="kernel/xiaomi/sm7435" remote="joseph" revision="16.0" />
+    <project name="project-sm7435/android_kernel_xiaomi_sm7435-devicetrees" path="kernel/xiaomi/sm7435-devicetrees" remote="joseph" revision="16.0" />
+    <project name="project-sm7435/android_kernel_xiaomi_sm7435-modules" path="kernel/xiaomi/sm7435-modules" remote="joseph" revision="16.0" />
 </manifest>
