@@ -29,6 +29,7 @@ repo sync \
     system/logging \
     prebuilts/jdk/jdk21 \
     prebuilts/go/linux-x86 \
+    external/golang-protobuf \
     -j8
 
 set +u
