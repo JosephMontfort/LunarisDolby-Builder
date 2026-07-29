@@ -34,6 +34,6 @@ set +u
 source build/envsetup.sh
 set -u
 
-lunch aosp_arm64-userdebug
+lunch --list
 
 m LunarisDolby
